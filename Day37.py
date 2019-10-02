@@ -1,0 +1,16 @@
+#1
+cars=['ford','volvo','bmw']
+print(cars)
+print("****************")
+#2
+cars=['ford','volvo','bmw']
+x=cars[1]
+print(x)
+print("****************")
+#3
+cars=['ford','volvo','bmw']
+cars[1]='toyota'
+print(cars)
+print("****************")
+cars=['ford','volvo','bmw']
+print(len(cars))

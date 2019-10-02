@@ -1,0 +1,92 @@
+#1
+thisdict={}
+print(thisdict)
+print("**********")
+#2
+thisdict={
+"brand":"ford",
+"model":"mustang",
+"year":564
+}
+print(thisdict)
+print("**********")
+#2
+thisdict={
+"brand":"ford",
+"model":"mustang",
+"year":564
+}
+x=thisdict["model"]
+print(x)
+print("**********")
+#3
+thisdict={
+"brand":"ford",
+"model":"mustang",
+"year":564
+}
+x=thisdict.get("model")
+print(x)
+print("**********")
+#4
+thisdict={
+"brand":"ford",
+"model":"mustang",
+"year":564
+}
+thisdict["year"]=789
+print(thisdict)
+print("**********")
+#5
+thisdict={
+"brand":"ford",
+"model":"mustang",
+"year":564
+}
+for x in thisdict:
+    print(x)
+
+#6
+thisdict={
+"brand":"ford",
+"model":"mustang",
+"year":564
+}
+for x in thisdict:
+    print(thisdict[x])
+print("**********")
+#7
+thisdict={
+"brand":"ford",
+"model":"mustang",
+"year":564
+}
+for x in thisdict.values():
+    print(x)
+print("**********")
+#8
+thisdict={
+"brand":"ford",
+"model":"mustang",
+"year":564
+}
+print(thisdict.values())
+print("**********")
+#9
+thisdict={
+"brand":"ford",
+"model":"mustang",
+"year":564
+}
+for x, y in thisdict.items():
+    print(x,y)
+print("**********")
+#10
+thisdict={
+"brand":"ford",
+"model":"mustang",
+"year":564
+}
+print(thisdict.items())
+print("**********")
+
